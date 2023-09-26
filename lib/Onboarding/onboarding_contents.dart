@@ -10,53 +10,52 @@ class OnboardingContents {
   });
 }
 
-
 List<OnboardingContents> contents = [
   OnboardingContents(
     title: "Too Fear to walk alone?",
     image: "assets/1.png",
-    desc: "Let's help you!\nUse GoSecure's great features to ensure your personal safety",
-  ),
-  OnboardingContents(
-    title: "Personalized Conversational AI Assistant",
-    image: "assets/54960780.png",
     desc:
-    "Your Empathetic Companion!!\nYou can tap on the assistant and say 'HELLO' to get it introduced to you",
+        "Let's help you!\nUse GoSecure's great features to ensure your personal safety",
   ),
+  // OnboardingContents(
+  //   title: "Personalized Conversational AI Assistant",
+  //   image: "assets/54960780.png",
+  //   desc:
+  //   "Your Empathetic Companion!!\nYou can tap on the assistant and say 'HELLO' to get it introduced to you",
+  // ),
   OnboardingContents(
-    title: "Send Alerts with Live Location!",
+    title: "One-Touch Live Alerts!",
     image: "assets/icons/alert1.png",
     desc:
-    "Share instant alerts with your loved ones in just one tap",
+        "Share immediate alerts and your live location with loved ones effortlessly.",
   ),
   OnboardingContents(
-    title: "Shake detector",
+    title: "Shake Sensing Technology",
     image: "assets/shake.png",
-    desc:
-    "GoSecure detects shake frequency to send alerts",
+    desc: "Stay protected with GoSecure's shake-based alert detection system.",
   ),
   OnboardingContents(
-    title: "Help at your fingertips",
+    title: "Immediate Aid at Hand",
     image: "assets/women.png",
     desc:
-    "GoSecure instantly connects you with the concerned authorities",
+        "With GoSecure, help is always within your reach, ready to be accessed with a simple touch.",
   ),
   OnboardingContents(
-    title: "Periodic Location Updates",
+    title: "Automated Location Updates",
     image: "assets/liveloc.png",
     desc:
-    "Share location periodically with your loved ones to help them track you",
+        "Use periodic location updates as convenient check-ins for your loved ones.",
   ),
   OnboardingContents(
-    title: "Spy Camera Detector",
+    title: "Your Spy Camera Guardian",
     image: "assets/spy.png",
     desc:
-    "GoSecure uses magnetometers and gyroscopes sensors to detect spy camera",
+        "Defend your personal space with GoSecure's spy camera detection using cutting-edge sensors.",
   ),
   OnboardingContents(
-    title: "Personal Safety at your Fingertips",
+    title: "Connected for Safer Journeys",
     image: "assets/1.png",
     desc:
-    "Always Stay Connected for a safer walk\nFight Back! Be Alert!",
+        "AWith safety at your fingertips, always stay connected and ready to defend yourself while walking!",
   ),
 ];
